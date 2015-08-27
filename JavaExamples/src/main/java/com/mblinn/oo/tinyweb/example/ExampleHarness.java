@@ -36,7 +36,7 @@ public class ExampleHarness {
 		HttpResponse testResponse = tinyWeb.handleRequest(testRequest);
 		
 		System.out.println("responseCode: " + testResponse.getResponseCode());
-		System.out.println("responseBody: ");
+		System.out.println("responsebody: ");
 		System.out.println(testResponse.getBody());
 	}
 	
